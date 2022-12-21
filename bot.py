@@ -1,4 +1,4 @@
-import pyrogram from Client, filters
+from pyrogram import Client, filters
 
 
 bot = Client(
@@ -12,9 +12,9 @@ bot = Client(
 
 @bot.on_message(filters.command('start'))
 def start(bot,msg):
-    bot.send_message(msg.chat.id, hello Word )
+    bot.send_message(msg.chat.id, 'hello Word' )
 
-Bot.run()
+bot.run()
 
 
 
