@@ -14,7 +14,7 @@ bot = Client(
 def start(bot,msg):
     bot.send_message(msg.chat.id, hello Word )
 
-bot.run()
+Bot.run()
 
 
 
